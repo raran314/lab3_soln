@@ -347,9 +347,10 @@ let partition (condition : 'a -> bool) (lst : 'a list)
                          else yeses, (elt :: noes))
                       lst 
                       ([], []) ;;
-   *)
 
-  
+   To think about: Which of these do you like best? What are the
+   advantages and disadvantages of each?
+ *)
 
 (*......................................................................
 Exercise 12: We can think of function application itself as a
